@@ -4,7 +4,7 @@ class CustomAppBar extends StatelessWidget {
   final AnimationController? animationController;
   final Animation? colorTween;
   final Animation? homeTween;
-  final Animation?  yogaTween;
+  final Animation? yogaTween;
   final Animation? iconTween;
   final Animation? drawerTween;
   final Function()? onPress;
@@ -29,7 +29,7 @@ class CustomAppBar extends StatelessWidget {
             backgroundColor: colorTween!.value,
             elevation: 0,
             titleSpacing: 0.0,
-             leading: IconButton(
+            leading: IconButton(
               onPressed: onPress,
               icon: Icon(
                 Icons.dehaze,
@@ -62,7 +62,7 @@ class CustomAppBar extends StatelessWidget {
               const Padding(
                 padding: EdgeInsets.all(7),
                 child: CircleAvatar(
-                  backgroundColor: Colors.green,
+                  backgroundColor: Colors.pink,
                   // backgroundImage: NetworkImage(),
                 ),
               )
